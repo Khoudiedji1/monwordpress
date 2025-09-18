@@ -1,0 +1,24 @@
+[18-Sep-2025 13:51:13 UTC] PHP Notice:  Function map_meta_cap was called <strong>incorrectly</strong>. The post type <code>product</code> is not registered, so it may not be reliable to check the capability <code>edit_post</code> against a post of that type. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in /Applications/MAMP/htdocs/monwordpress/wp-includes/functions.php on line 6121
+[18-Sep-2025 14:02:09 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Applications/MAMP/htdocs/monwordpress/wp-includes/class-wpdb.php on line 1988
+[18-Sep-2025 14:35:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_shop() in /Applications/MAMP/htdocs/monwordpress/wp-content/themes/lacedup-storefront-child/functions.php:17
+Stack trace:
+#0 /Applications/MAMP/htdocs/monwordpress/wp-includes/class-wp-hook.php(324): {closure}('')
+#1 /Applications/MAMP/htdocs/monwordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/monwordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/monwordpress/wp-includes/template-loader.php(13): do_action('template_redire...')
+#4 /Applications/MAMP/htdocs/monwordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/monwordpress/index.php(17): require('/Applications/M...')
+#6 {main}
+  thrown in /Applications/MAMP/htdocs/monwordpress/wp-content/themes/lacedup-storefront-child/functions.php on line 17
+[18-Sep-2025 14:35:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_shop() in /Applications/MAMP/htdocs/monwordpress/wp-content/themes/lacedup-storefront-child/functions.php:17
+Stack trace:
+#0 /Applications/MAMP/htdocs/monwordpress/wp-includes/class-wp-hook.php(324): {closure}('')
+#1 /Applications/MAMP/htdocs/monwordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/monwordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/monwordpress/wp-includes/template-loader.php(13): do_action('template_redire...')
+#4 /Applications/MAMP/htdocs/monwordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/monwordpress/index.php(17): require('/Applications/M...')
+#6 {main}
+  thrown in /Applications/MAMP/htdocs/monwordpress/wp-content/themes/lacedup-storefront-child/functions.php on line 17
+[18-Sep-2025 14:57:41 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Applications/MAMP/htdocs/monwordpress/wp-includes/class-wpdb.php on line 1988
+[18-Sep-2025 15:01:56 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Applications/MAMP/htdocs/monwordpress/wp-includes/class-wpdb.php on line 1988
