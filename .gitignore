@@ -1,0 +1,21 @@
+# Fichiers système macOS
+.DS_Store
+
+# Config locale
+wp-config.php
+
+# Dossier uploads (souvent très lourd)
+wp-content/uploads/
+
+# Cache et backups
+wp-content/cache/
+wp-content/backups/
+wp-content/upgrade/
+
+# Logs
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.swp
+*.swo
