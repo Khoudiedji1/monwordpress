@@ -22,3 +22,13 @@ Stack trace:
   thrown in /Applications/MAMP/htdocs/monwordpress/wp-content/themes/lacedup-storefront-child/functions.php on line 17
 [18-Sep-2025 14:57:41 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Applications/MAMP/htdocs/monwordpress/wp-includes/class-wpdb.php on line 1988
 [18-Sep-2025 15:01:56 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Applications/MAMP/htdocs/monwordpress/wp-includes/class-wpdb.php on line 1988
+[18-Sep-2025 20:11:19 UTC] Erreur d’événement de replanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[18-Sep-2025 21:04:59 UTC] Automatic updates starting...
+[18-Sep-2025 21:05:00 UTC]   Automatic plugin updates starting...
+[18-Sep-2025 21:05:00 UTC]   Automatic plugin updates complete.
+[18-Sep-2025 21:05:00 UTC] Automatic updates complete.
+[18-Sep-2025 21:25:43 UTC] Erreur d’événement de replanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[19-Sep-2025 09:05:36 UTC] Automatic updates starting...
+[19-Sep-2025 09:05:36 UTC]   Automatic plugin updates starting...
+[19-Sep-2025 09:05:37 UTC]   Automatic plugin updates complete.
+[19-Sep-2025 09:05:37 UTC] Automatic updates complete.
