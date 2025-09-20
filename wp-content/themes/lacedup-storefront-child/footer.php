@@ -1,34 +1,42 @@
+<?php
+/**
+ * The template for displaying the footer
+ */
+?>
+
 <footer class="site-footer">
   <div class="footer-container">
 
     <div class="footer-top">
+      <!-- Logo -->
       <div class="footer-logo">
-        <a href="<?php echo home_url(); ?>">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="Laced Up Logo" height="40" style="filter: brightness(0) invert(1);">
-        </a>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Logo_Lacedup1.png" alt="LacedUp Logo">
       </div>
 
+      <!-- Social -->
       <div class="footer-social">
         <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-tiktok"></i></a>
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
       </div>
     </div>
 
+    <!-- Footer Bottom -->
     <div class="footer-bottom">
-      <p>&copy; <?php echo date('Y'); ?> Laced Up</p>
+      <p>© 2025 Lacedup Inc. Tous droits réservés</p>
       <div class="footer-links">
-        <a href="/faq">FAQ</a> | 
-        <a href="/terms-of-service">Terms</a> | 
-        <a href="/privacy-policy">Privacy</a> | 
-        <a href="/contact">Contact</a>
+        <a href="#">Guides</a>
+        <a href="#">Conditions d'utilisation</a>
+        <a href="#">Conditions générales de vente</a>
+        <a href="#">Informations sur l'entreprise</a>
+        <a href="#">Politique de confidentialité et de gestion des cookies</a>
+        <a href="#">Paramètres de confidentialité et des cookies</a>
       </div>
     </div>
-
+    
   </div>
-
-  <?php wp_footer(); ?>
 </footer>
+
+<?php wp_footer(); ?>
 </body>
 </html>
